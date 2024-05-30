@@ -3,10 +3,7 @@
 
 
 
-![Miro Medium Article Image](https://miro.medium.com/v2/resize:fit:720/format:webp/1*eGdNATA_BGQcA1xUvc9Irg.png)
-
-
-
+![Description of the image](./gitnotes/20240530_122911.png)
 
 This is normal text. <span style="color:blue">This part is blue.</span> And this is normal again.
 
