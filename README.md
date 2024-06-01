@@ -1,7 +1,7 @@
 # gitnotes
 *This **REPO** stores notes regarding how to use **GitHub** & command regarding **GitHub**.*
 
-
+![gitnotes](https://github.com/LocaMartin/gitdatabase/blob/main/20240530_122911.png)
 
 ![Description of the image](./gitnotes/20240530_122911.png)
 
