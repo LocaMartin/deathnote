@@ -1,9 +1,10 @@
 # gitnotes
+
 *This **REPO** stores notes regarding how to use **GitHub** & command regarding **GitHub**.*
 
 ![gitnotes](https://github.com/LocaMartin/gitdatabase/blob/main/20240530_122911.png)
 
-![Description of the image](./gitnotes/20240530_122911.png)
+<img src="https://github.com/LocaMartin/gitdatabase/blob/main/20240530_122911.png" alt="gitnotes" style="box-shadow: 3px 3px 3px gray;">
 
 This is normal text. <span style="color:blue">This part is blue.</span> And this is normal again.
 
