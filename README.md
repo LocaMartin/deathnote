@@ -1,4 +1,6 @@
-*This **REPO** stores my digital & handwritten notes.*
+<div>
+    <p>This <i><b>REPO</b></i> stores my digital & handwritten notes. <span style="float: right;">29/05/2025</span></p>
+</div>
 
 <img src="read.gif" style="width: 100%;" />
 
