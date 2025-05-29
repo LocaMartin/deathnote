@@ -1,0 +1,31 @@
+# Core Vulnerable Headers
+Host:
+X-Forwarded-Host:
+X-Forwarded-Server:
+X-HTTP-Host-Override:
+X-Real-IP:
+X-Originating-IP:
+
+# Specialized Reverse Proxy Headers
+X-Envoy-External-Address:
+X-Envoy-Internal:
+X-Envoy-Original-Dst-Host:
+
+# Cache Control Headers
+Vary:
+Cache-Control:
+
+# Authentication Headers
+Authorization:
+Cookie:
+X-Auth-Token:
+
+# Common Header Patterns
+X-Forwarded-{FUZZ}
+X-Original-{FUZZ}
+X-{COMPANY_NAME}-{FUZZ}
+
+# Additional Headers
+Forwarded:
+X-Forwarded-Proto:
+X-Forwarded-For:

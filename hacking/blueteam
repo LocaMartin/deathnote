@@ -1,0 +1,115 @@
+🔒 1. Preventive Operations (Hardening & Protection)
+✅ Asset Inventory Management
+Maintain an up-to-date list of all systems, applications, services, and endpoints.
+
+Classify and tag sensitive assets (e.g. PCI, HIPAA).
+
+✅ Patch Management
+Regularly update OS, applications, firmware, and libraries.
+
+Prioritize critical CVEs using CVSS scores and exploit availability.
+
+✅ Configuration Hardening
+Enforce security baselines (e.g. CIS Benchmarks).
+
+Disable unnecessary services, ports, and default credentials.
+
+✅ Firewall and Network Segmentation
+Apply strict ACLs, VLANs, and zone-based firewalls.
+
+Isolate critical infrastructure from general access networks.
+
+✅ Endpoint Detection and Response (EDR) Deployment
+Install and configure agents like CrowdStrike, SentinelOne, or Microsoft Defender ATP.
+
+Enable behavioral detection, file integrity monitoring, and memory scanning.
+
+✅ Email and Web Filtering
+Implement anti-phishing tools (e.g. Proofpoint, Mimecast).
+
+Block malicious URLs and restrict file types.
+
+✅ Access Control and Identity Management
+Enforce MFA, RBAC, and least privilege.
+
+Monitor login behaviors and implement identity federation (e.g. SSO with Okta/Azure AD).
+
+🕵️‍♀️ 2. Detective Operations (Monitoring & Hunting)
+🔍 Log Management and SIEM Monitoring
+Collect and analyze logs using a SIEM like Splunk, Elastic, QRadar, or Azure Sentinel.
+
+Build detection rules for abnormal behavior (e.g. brute force, lateral movement).
+
+🔍 Security Monitoring & Alert Triage
+Monitor alerts from IDS/IPS (e.g. Suricata, Snort).
+
+Investigate alerts and suppress false positives.
+
+🔍 Threat Hunting
+Conduct proactive searches using known TTPs (MITRE ATT&CK).
+
+Use hypotheses like: “What if an attacker compromised RDP last week?”
+
+🔍 Anomaly Detection
+Use baselining and UEBA (User & Entity Behavior Analytics).
+
+Flag deviations in login times, process chains, or network destinations.
+
+🔍 Threat Intelligence Integration
+Pull in IOCs from OSINT, commercial feeds, or ISACs.
+
+Correlate with logs and asset data to check for matches.
+
+🧯 3. Responsive Operations (Containment & Recovery)
+🚨 Incident Detection & Response
+Follow IR playbooks (e.g. phishing, ransomware, lateral movement).
+
+Classify severity and escalate accordingly.
+
+🚨 Digital Forensics
+Acquire memory, disk, or network captures for investigation.
+
+Use tools like Volatility, FTK Imager, or Velociraptor.
+
+🚨 Containment & Eradication
+Isolate compromised hosts from the network.
+
+Remove malicious files, accounts, or persistence mechanisms.
+
+🚨 Recovery and Remediation
+Reimage systems or restore from known-good backups.
+
+Rotate credentials and patch exploited vulnerabilities.
+
+🚨 Post-Incident Review (Lessons Learned)
+Conduct after-action reports.
+
+Update detection rules and IR playbooks based on new insights.
+
+🔁 4. Continuous Improvement
+📊 Security Audits and Compliance
+Ensure compliance with frameworks (e.g. NIST 800-53, ISO 27001, PCI-DSS).
+
+Conduct internal or external audits regularly.
+
+🔐 Security Awareness Training
+Run phishing simulations and mandatory training.
+
+Educate users on secure behavior and reporting procedures.
+
+⚙️ Red Team/Purple Team Collaboration
+Work with offensive teams to test controls (assume breach).
+
+Tune detections and responses through purple team exercises.
+
+📘 Playbook and Runbook Development
+Document step-by-step procedures for detection and response.
+
+Automate repetitive tasks using SOAR platforms (e.g. Cortex XSOAR, Splunk Phantom).
+
+⚙️ 5. Supporting Operations
+Backup and Disaster Recovery (DR) – ensure robust, tested backup strategies.
+
+Security Architecture Reviews – validate new deployments for secure design.
+
+GRC (Governance, Risk, and Compliance) – manage policies, risk assessments, and business continuity plans.

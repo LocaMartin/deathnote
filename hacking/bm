@@ -1,0 +1,41 @@
+subfinder -d TARGET.com -o subdomain.txt | httprobe -c 50 -t 100 | wfuzz -w worlist.txt -c -u 'http://FUZZ.TARGET.COM/' -H 'X-Forwarded-For: FUZZ' -v --hc 404 | grep -e "code-200" | awk '{print $5}' | grep -E '.php|.asp|.jsp' | hakcheckurl -verbose | grep -E 'high|medium' | sort -u >vuln_url.txt
+# Discover subdomains, probe live hosts, fuzz URLs with header injection, filter 200 OK responses with specific extensions, check vulnerabilities, and save high/medium severity unique vulnerable URLs.
+
+subfinder -d redacted.com -all | anew subs.txt; shuffledns -d redacted.com -r resolvers.txt -w n0kovo_subdomains_huge.txt | anew subs.txt; dnsx -l subs.txt -r resolvers.txt | anew resolved.txt; naabu -l resolved.txt -nmap -rate 5000 | anew ports.txt; httpx -l ports.txt | anew alive.txt; katana -list alive.txt -silent -nc -jc -kf all -fx -xhr -ef woff,css,png,svg,jpg,woff2,jpeg,gif,svg -aff | anew urls.txt; nuclei -l urls.txt -es info,unknown -ept ssl -ss template-spray | anew nuclei.txt
+# Perform comprehensive recon: subdomain enumeration, DNS resolution, port scanning, HTTP probing, content gathering, and vulnerability scanning with nuclei, saving incremental results.
+
+subfinder -silent -d HOST | filter-resolved | cf-check | sort -u | naabu -rate 40000 -silent -verify | httprobe
+# Enumerate subdomains, filter resolved ones excluding Cloudflare, scan ports with naabu, verify live HTTP hosts.
+
+subfinder -d HOST -silent | httpx -silent -follow-redirects -mc 200 | cut -d '/' -f3 | sort -u
+# Find live hosts/domains by enumerating subdomains and probing HTTP 200 responses.
+
+subfinder -d site.com -all | naabu | httpx | nuclei -t nuclei-templates
+# Automated scanner pipeline: subdomain enumeration, port scanning, HTTP probing, and nuclei vulnerability scanning.
+
+subfinder -d site.com -all | naabu | httpx | waybackurls | grep -E ".json(?:onp?)?$"
+# Find .json files by combining subdomain enumeration, port scanning, HTTP probing, and waybackurls filtering.
+
+subfinder -d site.com -all | dnsprobe -silent | cut -d ' ' -f1 | grep --color 'dmz\|api\|staging\|env\|v1\|stag\|prod\|dev\|stg\|test\|demo\|pre\|admin\|beta\|vpn\|cdn\|coll\|sandbox\|qa\|intra\|extra\|s3\|external\|back'
+# Find interesting subdomains matching common environment/admin keywords.
+
+subfinder -d site.com -all -silent | httpx -silent | nuclei -rl 50 -c 15 -timeout 10 -tags cisa -vv
+# Scan discovered subdomains for top exploited vulnerabilities tagged by CISA using nuclei.
+
+assetfinder DOMAIN --subs-only | anew | massdns -r lists/resolvers.txt -t A -o S -w result.txt ; cat result.txt | sed 's/A.*//; s/CN.*// ; s/\..$//' | httpx -silent
+# Find subdomains with assetfinder, resolve with massdns, clean output, and probe live hosts with httpx.
+
+amass intel -org paypal -max-dns-queries 2500 | awk -F, '{print $1}' ORS=',' | sed 's/,$//' | xargs -P3 -I@ -d ',' amass intel -asn @ -max-dns-queries 2500
+# Gather intel on organization and ASN ranges using Amass with max DNS queries.
+
+chaos -d $1 -o chaos1 -silent ; assetfinder -subs-only $1 >> assetfinder1 ; subfinder -d $1 -o subfinder1 -silent ; cat assetfinder1 subfinder1 chaos1 >> hosts ; cat hosts | anew clearDOMAIN ; httpx -l hosts -silent -threads 100 | anew http200 ; rm -rf chaos1 assetfinder1 subfinder1
+# Automate recon by combining chaos, assetfinder, subfinder, deduplicate, probe live hosts, and save HTTP 200 responses.
+
+############################### Live Host Probing & Port Scanning
+
+httpx -ports 80,443,8009,8080,8081,8090,8180,8443 -l domain -timeout 5 -threads 200 --follow-redirects -silent | gargs -p 3 'gospider -m 5 --blacklist pdf -t 2 -c 300 -d 5 -a -s {}' | anew stepOne
+# Probe hosts with httpx and run gospider in parallel with concurrency and blacklist.
+
+
+##################### URL & Endpoint Gathering
+
