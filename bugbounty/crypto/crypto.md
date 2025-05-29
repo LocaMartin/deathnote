@@ -1,0 +1,3 @@
+- [ ] Set up a secure crypto wallet.
+- [ ] Understand the concept of gas fees (for Ethereum).
+- [ ] Learn about crypto exchanges.
