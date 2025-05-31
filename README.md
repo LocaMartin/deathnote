@@ -16,3 +16,13 @@ To protect your visual cortex and maintain your sanity, we strongly recommend - 
 
 > 👋 Before you attempt to decode the hieroglyphics masquerading as handwriting... Just kidding! We've got nice, clean digital notes ready for you right here!
 Top Secret Decoder Ring Not Included. Digital version available at safe reading distance.
+
+<div align="center">
+<table>
+  <tr>
+    <td><a href="/TABLE.md">TABLE OF CONCEPT</a></td>
+    <td><a href="/STRUCTURE.md">REPO STRUCTURE</a></td>
+  </tr>
+</table>
+</div>
+ https://locamartin.github.io/deathnote/

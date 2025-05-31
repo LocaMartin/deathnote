@@ -17,3 +17,30 @@
 - CTF , LABs & Real Vuln Targets to Practice
 - Malware dev & analysis
 - Networking for hackers
+- signal hacking
+-     Radio Frequency (RF) Hacking
+
+    Satellite Signal Hacking
+
+    Cellular Network Hacking
+
+    Radar & Sonar Signal Manipulation
+
+    Bluetooth & NFC Exploitation
+
+    WiFi Signal Interference & Manipulation
+
+    RFID Signal Hijacking
+
+    GPS Spoofing & Jamming
+
+    Broadcast Signal Interception
+
+    Remote Control Signal Exploitation
+
+    Infrared & Laser Signal Manipulation
+
+    Electromagnetic Signal Interference
+
+    Smart Antenna & Beamforming Attacks
+

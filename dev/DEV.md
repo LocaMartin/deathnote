@@ -26,3 +26,5 @@
 13. programing language tricks
 14. command line tools dev using multiple lang
 15. smart contract ( dev, working & deep learning )
+16. making of a file format (jpg,png,pdf)
+17. OS dev
