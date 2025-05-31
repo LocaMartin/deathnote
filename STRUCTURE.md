@@ -1,84 +1,61 @@
-# 46 directories, 96 files
-
+# 56 directories, 107 files
 ```
 deathnote
+├── GUIDE.md
 ├── README.md
 ├── STRUCTURE.md
 ├── TABLE.md
-├── compitative
-│   ├── README.md
-│   └── army_path.md
+├── competitive
+│   ├── COMPITATIVE.md
+│   ├── civil
+│   └── defence
+│       └── army_path.md
+├── cryptography
+│   ├── CRYPTOGRAPHY.md
+│   ├── hash
+│   │   ├── HASH.md
+│   │   ├── md5.md
+│   │   └── sha.md
+│   └── hex.md
 ├── dev
-│   ├── README.md
+│   ├── DEV.md
 │   ├── docker
-│   │   └── README.md
+│   │   └── DOCKER.md
 │   ├── github
-│   │   └── README.md
+│   │   └── GITHUB.md
 │   ├── programinglang
 │   │   ├── go
 │   │   │   └── go.md
 │   │   ├── markdown
 │   │   │   └── markdwon.md
 │   │   └── python
-│   │       └── README.md
+│   │       └── python.md
 │   ├── tech
-│   │   ├── README.md
+│   │   ├── TECH.md
 │   │   ├── protocol.md
 │   │   └── proxy.md
 │   └── web
+│       ├── WEB_DEV.md
 │       ├── css
-│       │   └── README.md
+│       │   └── CSS.md
 │       ├── html
-│       │   └── README.md
+│       │   └── HTML.md
 │       └── js
-│           ├── README.md
+│           ├── JS.md
 │           └── react
-│               └── README.md
+│               └── react.md
 ├── hacking
 │   ├── README.md
 │   ├── blueteam
 │   ├── bm
-│   ├── bug-report-template
-│   │   ├── README.md
-│   │   ├── api_auth_access.md
-│   │   ├── cache_poisoning.md
-│   │   ├── clickjacking.md
-│   │   ├── cors_misconfig.md
-│   │   ├── crlf.md
-│   │   ├── dom_takeover.md
-│   │   ├── error_sqli.md
-│   │   ├── host_header_injection_template.md
-│   │   ├── http_smuggle.md
-│   │   ├── infoleak.md
-│   │   ├── insecure_deserialization.md
-│   │   ├── insecure_http_method.md
-│   │   ├── open_redirect.md
-│   │   ├── path_traversal.md
-│   │   ├── ssrf.md
-│   │   └── xss.md
-│   ├── bugbounty
-│   │   ├── README.md
-│   │   ├── cloud
-│   │   │   └── aws.md
-│   │   ├── crypto
-│   │   │   ├── README.md
-│   │   │   ├── crypto.md
-│   │   │   └── tables
-│   │   │       ├── company.md
-│   │   │       └── crypto_coin.md
-│   │   └── web
-│   │       ├── OriginIP_Discovery.md
-│   │       └── orip.py
-│   ├── cheet_sheet
-│   │   ├── CHEAT-SHEET.md
-│   │   ├── CREDIT.md
-│   │   ├── MY_CHEET_SHEET.md
-│   │   ├── README.md
-│   │   ├── TOOLS.md
-│   │   └── one-unscreen.gif
 │   ├── internship_and_certificate.md
+│   ├── network
+│   │   ├── NETWORK.md
+│   │   └── protocol
+│   │       ├── PROTOCOL.md
+│   │       └── proto_table.md
 │   ├── payloads
-│   │   ├── README.md
+│   │   ├── PROTOCOL.md
 │   │   ├── command_injection
 │   │   │   ├── unix
 │   │   │   │   ├── enci.txt
@@ -95,15 +72,12 @@ deathnote
 │   │   │   ├── json_rpc.md
 │   │   │   └── method.txt
 │   │   ├── header
-│   │   │   ├── header.txt
-│   │   │   ├── headercollector.py
-│   │   │   └── resume.cfg
+│   │   │   └── header.txt
 │   │   ├── lfi_dt
 │   │   │   └── passwd
 │   │   │       ├── base64pass.txt
 │   │   │       ├── enpasswd.txt
-│   │   │       ├── passwd.txt
-│   │   │       └── resume.cfg
+│   │   │       └── passwd.txt
 │   │   ├── open_redirect
 │   │   │   └── open_redirect.txt
 │   │   ├── param
@@ -111,7 +85,6 @@ deathnote
 │   │   ├── path
 │   │   │   ├── backup.txt
 │   │   │   ├── cgi.txt
-│   │   │   ├── resume.cfg
 │   │   │   └── senstivejs.txt
 │   │   ├── sqli
 │   │   │   ├── auth_bypass
@@ -136,11 +109,58 @@ deathnote
 │   │       ├── xss.svg
 │   │       ├── xss.txt
 │   │       └── xss64.svg
-│   ├── proto_table.md
 │   ├── psychology.md
-│   └── res
-│       ├── README.md
-│       ├── loccsqa.md
-│       └── loipcc.md
+│   ├── res
+│   │   ├── RESOURCE.md
+│   │   ├── loccsqa.md
+│   │   └── loipcc.md
+│   ├── signal
+│   │   └── SIGNAL.md
+│   └── web
+│       ├── WEB.md
+│       ├── bug-report-template
+│       │   ├── BUGREPORT.md.md
+│       │   ├── api_auth_access.md
+│       │   ├── cache_poisoning.md
+│       │   ├── clickjacking.md
+│       │   ├── cors_misconfig.md
+│       │   ├── crlf.md
+│       │   ├── dom_takeover.md
+│       │   ├── error_sqli.md
+│       │   ├── host_header_injection_template.md
+│       │   ├── http_smuggle.md
+│       │   ├── infoleak.md
+│       │   ├── insecure_deserialization.md
+│       │   ├── insecure_http_method.md
+│       │   ├── open_redirect.md
+│       │   ├── path_traversal.md
+│       │   ├── ssrf.md
+│       │   └── xss.md
+│       ├── bugbounty
+│       │   ├── README.md
+│       │   ├── cloud
+│       │   │   └── aws.md
+│       │   ├── crypto
+│       │   │   ├── CRYPTO.md
+│       │   │   ├── crypto.md
+│       │   │   └── tables
+│       │   │       ├── company.md
+│       │   │       └── crypto_coin.md
+│       │   └── web
+│       │       ├── OriginIP_Discovery.md
+│       │       └── orip.py
+│       └── cheet_sheet
+│           ├── CHEAT-SHEET.md
+│           ├── CREDIT.md
+│           ├── MY_CHEET_SHEET.md
+│           ├── README.md
+│           ├── TOOLS.md
+│           └── one-unscreen.gif
+├── networking
+├── os
+│   ├── OS.md
+│   ├── android.md
+│   ├── linux.md
+│   └── windows.md
 └── read.gif
 ```

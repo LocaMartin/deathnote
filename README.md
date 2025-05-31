@@ -2,6 +2,7 @@
     <p>This <i><b>REPO</b></i> stores my digital & handwritten notes. <span style="float: right;">29/05/2025</span></p>
 </div>
 
+![](/read.gif)
 <img src="read.gif" style="width: 100%;" />
 
 >  **☣** : The handwritten notes contained in this documentation have been classified as a biohazard due to extremely high levels of scribble toxicity. Prolonged exposure may cause confusion, headaches, and spontaneous urges to become a cryptologist.
@@ -25,4 +26,3 @@ Top Secret Decoder Ring Not Included. Digital version available at safe reading 
   </tr>
 </table>
 </div>
- https://locamartin.github.io/deathnote/
