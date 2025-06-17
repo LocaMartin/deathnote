@@ -1,1 +1,1 @@
-[](https://bitcoin.org/bitcoin.pdf)
+[BITCOIN](https://bitcoin.org/bitcoin.pdf) white paper
