@@ -1,22 +1,102 @@
-## Here are some paid cyber sec `Internship/Courses/Certification` program:
+<h1><marquee>Comprehensive Cybersecurity Resources</marquee></h1>
 
-| course | description | payment-status | category |
-|---|---|---|---|
-| [Google Cybersecurity Professional Certificate](https://www.coursera.org/professional-certificates/google-cybersecurity)| Offered on Coursera, this program covers essential cybersecurity topics, including threat detection, network security, and incident response. It's designed for beginners and provides a certificate upon completion. |||
-| [IBM SkillsBuild Cybersecurity Courses](https://skillsbuild.org/students/course-catalog/cybersecurity) | IBM SkillsBuild offers free courses focusing on cybersecurity fundamentals, such as encryption, cryptography, and cyberattack tactics. Participants can earn IBM-branded digital credentials recognized in the industry. ||| 
-| [ISC2 Certified in Cybersecurity (CC)]() | ISC2 provides a free self-paced training course for its Certified in Cybersecurity (CC) certification, including access to the certification exam. This is ideal for those new to the field. | [Paid](https://www.isc2.org/certifications/cc)/[Free](https://www.isc2.org/landing/1mcc) ||
-| [Udemy – Cyber Security Course for Beginners](https://www.udemy.com/topic/cyber-security/free/?srsltid=AfmBOordJa5ZCaJAQxDY4Rjp0tcOADIdQYtzGWuKyBHcEYRPUiMEvc2n) | This free course on Udemy introduces learners to cybersecurity fundamentals, including online safety measures and protecting personal information. |||
-| [Great Learning – Free Cybersecurity Courses]() | Great Learning offers a variety of free courses covering topics like cyber forensics, network security, and encryption. These courses are designed to enhance your career prospects in cybersecurity. |||
-| [CS50x – Harvard’s Introduction to Computer Science](https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science) | CS50x is a free online course offered by Harvard University through edX. While it's a general computer science course, it covers foundational topics relevant to cybersecurity, such as programming and data structures. || course |
-| [SWAYAM – Indian Government MOOC Platform]() | SWAYAM offers free courses in various disciplines, including cybersecurity, provided by Indian institutions like IITs and IIMs. These courses are accessible to all and often include certification options. || course |
-| [Coursera – Free Cybersecurity Courses]() | Coursera hosts a range of free cybersecurity courses from top universities and companies. While some courses offer free access to materials, a fee may be required for certification. || course |
-| [EC-Council – Free Cybersecurity Courses for Beginners]() | EC-Council provides free courses covering topics like cloud computing and ethical hacking, aimed at beginners seeking to enter the cybersecurity field. |
-| [Fortinet – Free Cybersecurity Training]() | Fortinet offers free training through its Network Security Expert (NSE) program, covering various aspects of cybersecurity for IT professionals. |||
-| [SANS Cyber Aces]() | SANS Institute provides free introductory courses, such as SEC301: Introduction to Cyber Security, offering foundational knowledge for those new to the field. |||
+## Core Certifications & Courses
 
-## Hands-On & Interactive Platforms For CyberSec Practice & certification
+| Name | Provider | Cost | Duration | Level | Key Topics | Certification |
+|------|----------|------|----------|-------|------------|---------------|
+| [Google Cybersecurity Professional Certificate](https://www.coursera.org/professional-certificates/google-cybersecurity) | Coursera | $49/month | 6 months | Beginner | Threat detection, SIEM tools, Python, Linux, AI integration | Professional Cert |
+| [CompTIA Security+](https://www.comptia.org/certifications/security) | CompTIA | $404 exam | Self-paced | Intermediate | Risk management, Cryptography, Cloud security | Vendor-neutral |
+| [CISSP](https://www.isc2.org/certifications/cissp) | (ISC)² | $749 exam | 5+ years exp | Advanced | Security architecture, DevSecOps, IAM | ISO 27001 aligned |
+| [CEH v12 (AI)](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/) | EC-Council | $1,199 | 5 days | Intermediate | Pen testing, IoT hacking, AI threat detection | ANSI accredited |
+| [AWS Security Specialty](https://aws.amazon.com/certification/certified-security-specialty/) | Amazon | $300 exam | 1-3 months | Advanced | CloudSec, KMS, IAM policies | Vendor-specific |
+| [SANS SEC504](https://www.sans.org/cyber-security-courses/hacker-techniques-exploits-incident-handling/) | SANS | $7,800 | 6 days | Advanced | Threat hunting, Memory forensics | GIAC GCIH |
+| [OSCP](https://www.offensive-security.com/pwk-oscp/) | OffSec | $1,599 | 90 days lab | Expert | AD exploitation, Privilege escalation | Practical exam |
+| [Certified SOC Analyst](https://www.eccouncil.org/train-certify/certified-soc-analyst-csa/) | EC-Council | $850+ | 3 days | Intermediate | SIEM, Threat intelligence, Incident response | C&#124;SA |
+| [CISM](https://www.isaca.org/credentialing/cism) | ISACA | $575-$760 exam | Self-paced | Advanced | Security governance, Risk management | CISM |
+| [CCSP](https://www.isc2.org/certifications/ccsp) | (ISC)² | $599 exam | 1-3 months | Advanced | Cloud data security, Compliance | ISO 17024 accredited |
+| [CISA](https://www.isaca.org/credentialing/cisa) | ISACA | $575-$760 exam | Self-paced | Advanced | IT auditing, Risk assessment, Compliance | CISA |
+| [GIAC Penetration Tester (GPEN)](https://www.giac.org/certifications/gpen) | GIAC | $999 exam | Self-paced | Advanced | Penetration testing, Vulnerability analysis | GIAC Certified |
 
-| PlatForm | description |
-|---|---|
-| TryHackMe | TryHackMe provides interactive, gamified cybersecurity training through real-world scenarios. It's beginner-friendly and offers hands-on experience in various cybersecurity domains. |
-| Cybrary | Cybrary offers free access to over 50 courses, including certification prep content and select virtual labs. It's suitable for learners aiming to advance their cybersecurity skills. |
+## Free/Low-Cost Foundational Programs
+
+| Name | Provider | Cost | Format | Key Topics | Certification |
+|------|----------|------|--------|------------|---------------|
+| [ISC2 CC](https://www.isc2.org/landing/1mcc) | (ISC)² | Free (training+exam) | Self-paced | Cybersecurity fundamentals | CC Certification |
+| [IBM Cybersecurity Fundamentals](https://skillsbuild.org/students/course-catalog/cybersecurity) | SkillsBuild | Free | Self-paced | Cryptography, Threat intel | IBM Digital Badge |
+| [Fortinet NSE 1-3](https://training.fortinet.com/) | Fortinet | Free | Self-paced | Network security | NSE Certificates |
+| [Cybrary Free Courses](https://www.cybrary.it/free-content) | Cybrary | Free | Self-paced | OSINT, MITRE ATT&CK, Defensive security | N/A |
+| [Harvard CS50 Cybersecurity](https://cs50.harvard.edu/cybersecurity/2023/) | edX | Free ($199 cert) | 8 weeks | Encryption, SQLi, XSS | Verified Cert |
+| [Palo Alto Cybersecurity Apprentice](https://www.paloaltonetworks.com/services/education/certification) | Palo Alto | Free training | Online | Foundational networking, security | Foundational cert |
+| [Google Cloud Cybersecurity Certificate](https://www.coursera.org/professional-certificates/google-cloud-cybersecurity-certificate) | Google Cloud | $49/month | 6 months | Beginner | Cloud threat analysis, SCC, Chronicle SIEM | Professional Cert |
+| [WiCyS Google Cybersecurity Cohort](https://www.wicys.org/benefits/google-cybersecurity-certificate-program/) | WiCyS | Free (select cohorts) | 6 months | Mentored learning | Professional Cert |
+| [SANS Cyber Aces](https://www.cyberaces.org/) | SANS | Free | Self-paced | Cybersecurity foundations | Course |
+| [SWAYAM Cybersecurity Courses](https://swayam.gov.in/explorer?category=COMP_SCI_ENGG) | Indian Government | Free (course) | Varies | Network security, Forensics | Paid certification |
+| [Cisco Networking Academy: Cybersecurity Essentials](https://www.netacad.com/courses/security-cybersecurity) | Cisco Networking Academy | Free/$50 cert | Self-paced | Networking fundamentals, Cybersecurity basics | Certificate |
+
+## Hands-On Practice Platforms
+
+| Platform | Cost | Key Features | Ideal For | Certifications |
+|----------|------|-------------|-----------|---------------|
+| [TryHackMe](https://tryhackme.com) | Free/$20/mo | Gamified labs, Guided paths | Beginners | OffSec Pentest+ |
+| [Hack The Box](https://www.hackthebox.com) | Free/$20/mo | Real-world machines, CTFs | Intermediate | OSCP prep |
+| [PortSwigger Academy](https://portswigger.net/web-security) | Free | Web app labs, OWASP Top 10 | Web security | Burp Suite Cert |
+| [Blue Team Labs](https://blueteamlabs.online) | Free | SOC simulations, DFIR cases | Defensive security | N/A |
+| [RangeForce](https://www.rangeforce.com) | $0-$500/yr | Cloud attack/defend modules | Cloud engineers | Skill badges |
+| [PentesterLab](https://pentesterlab.com) | $20/mo | Web exploits, Pro exercises | Bug bounty hunters | Badges |
+| [Cybrary Labs](https://www.cybrary.it/catalog) | Free/paid | Virtual labs, Scenario-based | Skill development | N/A |
+| [VulnHub](https://www.vulnhub.com) | Free | Vulnerable VMs, CTF challenges | Intermediate | N/A |
+| [CTFtime](https://ctftime.org) | Free | CTF event aggregator, Competitions | All levels | N/A |
+
+## University & Government Programs
+
+| Program | Institution | Cost | Duration | Highlights |
+|---------|-------------|------|----------|------------|
+| [MS Cybersecurity](https://pe.gatech.edu/degrees/cybersecurity) | Georgia Tech | $10k | 2-3 years | NSA-certified, Online |
+| [CyberCorps SFS](https://www.sfs.opm.gov) | US Gov | Full scholarship | 3 years | Federal job placement |
+| [NSA CAE Programs](https://www.nsa.gov/academics/centers-academic-excellence/) | 300+ schools | Varies | Degree | Classified threat access |
+| [IITB Cybersecurity Cert](https://www.it.iitb.ac.in/ccs2023/) | IIT Bombay | ₹75k | 6 months | Industrial control systems |
+| [Oxford Cyber Security](https://www.conted.ox.ac.uk/courses/cyber-security) | Oxford | £2,500 | 8 weeks | Executive strategy |
+| [Stanford Cybersecurity Bootcamp](https://online.stanford.edu/courses/cybersecurity-bootcamp) | Stanford Online | Varies | 12 weeks | Intensive, expert-led, hands-on |
+
+## Internships & Early-Career Programs
+
+| Program | Organization | Paid | Duration | Requirements |
+|---------|--------------|------|----------|--------------|
+| [Microsoft Security Academy](https://www.microsoft.com/en-us/security/business/microsoft-security-academy) | Microsoft | Yes | 16 weeks | CCNA, US work auth |
+| [Palo Alto Networks Academy](https://www.paloaltonetworks.com/services/education/academy) | PANW | Stipend | 12 weeks | Network+, Python |
+| [CrowdStrike University](https://www.crowdstrike.com/careers/university-recruiting/) | CrowdStrike | Yes | 6 months | Linux, threat analysis |
+| [NSA Development Program](https://www.intelligencecareers.gov/nsa/nsadevelopmentprogram) | US Gov | GS-7 salary | 3 years | US citizenship |
+| [BlackGirlsHack Fellowship](https://www.blackgirlshack.org/fellowship) | BGH Foundation | Stipend | 4 months | Women of color |
+| [IBM Security Internship](https://www.ibm.com/us-en/employment/) | IBM | Yes | 12 weeks | Real-world projects, mentoring |
+
+## Specialized Tracks
+
+| Focus Area           | Top Certifications                                                                                                                                     | Free Resources                                                      | Salary Range  |
+|----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|---------------|
+| **Cloud Security**   | [CCSP](https://www.isc2.org/certifications/ccsp), [AWS Sec](https://aws.amazon.com/certification/certified-security-specialty/)                         | [CloudSec Training](https://cloudsecurityalliance.org/education/)      | $120k-$250k   |
+| **AppSec/DevSecOps** | [CSSLP](https://www.isc2.org/certifications/csslp), [GWEB](https://www.offensive-security.com/web-security/gweb/)                                        | [OWASP WebGoat](https://owasp.org/www-project-webgoat/)                | $135k-$220k   |
+| **Threat Intelligence** | [CTIA](https://www.eccouncil.org/programs/threat-intelligence-analyst-certification-ctia/), [GCTI](https://www.giac.org/certifications/gcti-gray-cloud-threat-intelligence/) | [MISP Training](https://www.misp-project.org/training/)                | $110k-$190k   |
+| **Privacy Management**   | [CDPSE](https://www.isaca.org/credentialing/cdpse)                                                                                                   | GDPR/CCPA guides                                                    | $130k-$200k   |
+| **Digital Forensics**    | [EnCE](https://www.guidancesoftware.com/encce), [GCFA](https://www.giac.org/certifications/gcfa)                                                       | [Autopsy Forensic Tool](https://www.sleuthkit.org/autopsy/)           | $100k-$170k   |
+| **Mobile Security**      | [MSTP (Mobile Security Testing Professional)](https://www.sans.org/cyber-security-courses/mobile-security-testing-in-depth/)                             | [OWASP Mobile Security Project](https://owasp.org/www-project-mobile-security/) | $115k-$200k   |
+
+## Intentionally Vulnerable Applications for Safe Testing
+
+| Site Name | URL | Deployment | Description | Key Vulnerabilities/Features |
+|---|---|---|---|---|
+| Test PHP Vulnweb | [testphp.vulnweb.com](http://testphp.vulnweb.com/) | Online Demo | An intentionally vulnerable PHP web application designed for safe penetration testing. | SQL Injection, XSS, Insecure authentication |
+| DVWA | [DVWA GitHub](https://github.com/digininja/DVWA) | Local Installation | A PHP/MySQL web application built for learning and practicing common web attacks. | SQL Injection, XSS, CSRF, File Inclusion |
+| Mutillidae II | [Mutillidae II](http://mutillidae.org/) | Local/Online Demo  | An OWASP project featuring a purposely insecure web app for security training. | XSS, SQL Injection, Clickjacking, CSRF |
+| bWAPP | [bWAPP Project](http://www.itsecgames.com/) | Local Installation | A buggy web application created for educational purposes in vulnerability testing. | Code Injection, XSS, SQL Injection, File Inclusion |
+| OWASP Juice Shop | [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) | Local/Docker/Online Demo | A modern, gamified insecure web app designed to teach web vulnerabilities in a fun format.  | SQL Injection, XSS, Broken Access Control |
+| WebGoat | [WebGoat](https://owasp.org/www-project-webgoat/) | Local Installation | OWASP’s official teaching tool that simulates common web security issues for training. | Cross-Site Scripting, SQL Injection, Insecure Deserialization |
+
+## Cybersecurity Conferences & Communities
+
+| Name | Event Type | Format | Description |
+|------|------------|--------|-------------|
+| [Black Hat](https://www.blackhat.com/) | Conference | Global/Various | Advanced technical training and briefings |
+| [DEF CON](https://defcon.org/) | Conference | Global/Various | One of the world’s largest hacker conventions |
+| [RSA Conference](https://www.rsaconference.com/) | Conference | Global/Various | Enterprise cybersecurity and risk management event |
+| [BSides](https://www.securitybsides.com/) | Community/Conference | Regional events | Community-driven security events |
+| [OWASP Global AppSec](https://owasp.org) | Conference | Global/Various | Focus on application security and vulnerability management |
