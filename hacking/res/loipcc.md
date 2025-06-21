@@ -1,4 +1,4 @@
-<h1><marquee>Comprehensive Cybersecurity Resources</marquee></h1>
+<h1 align="center">Comprehensive Cybersecurity Resources</h1>
 
 ## Core Certifications & Courses
 
