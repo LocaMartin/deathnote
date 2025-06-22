@@ -33,20 +33,6 @@
 | [SWAYAM Cybersecurity Courses](https://swayam.gov.in/explorer?category=COMP_SCI_ENGG) | Indian Government | Free (course) | Varies | Network security, Forensics | Paid certification |
 | [Cisco Networking Academy: Cybersecurity Essentials](https://www.netacad.com/courses/security-cybersecurity) | Cisco Networking Academy | Free/$50 cert | Self-paced | Networking fundamentals, Cybersecurity basics | Certificate |
 
-## Hands-On Practice Platforms
-
-| Platform | Cost | Key Features | Ideal For | Certifications |
-|----------|------|-------------|-----------|---------------|
-| [TryHackMe](https://tryhackme.com) | Free/$20/mo | Gamified labs, Guided paths | Beginners | OffSec Pentest+ |
-| [Hack The Box](https://www.hackthebox.com) | Free/$20/mo | Real-world machines, CTFs | Intermediate | OSCP prep |
-| [PortSwigger Academy](https://portswigger.net/web-security) | Free | Web app labs, OWASP Top 10 | Web security | Burp Suite Cert |
-| [Blue Team Labs](https://blueteamlabs.online) | Free | SOC simulations, DFIR cases | Defensive security | N/A |
-| [RangeForce](https://www.rangeforce.com) | $0-$500/yr | Cloud attack/defend modules | Cloud engineers | Skill badges |
-| [PentesterLab](https://pentesterlab.com) | $20/mo | Web exploits, Pro exercises | Bug bounty hunters | Badges |
-| [Cybrary Labs](https://www.cybrary.it/catalog) | Free/paid | Virtual labs, Scenario-based | Skill development | N/A |
-| [VulnHub](https://www.vulnhub.com) | Free | Vulnerable VMs, CTF challenges | Intermediate | N/A |
-| [CTFtime](https://ctftime.org) | Free | CTF event aggregator, Competitions | All levels | N/A |
-
 ## University & Government Programs
 
 | Program | Institution | Cost | Duration | Highlights |
@@ -80,7 +66,21 @@
 | **Digital Forensics**    | [EnCE](https://www.guidancesoftware.com/encce), [GCFA](https://www.giac.org/certifications/gcfa)                                                       | [Autopsy Forensic Tool](https://www.sleuthkit.org/autopsy/)           | $100k-$170k   |
 | **Mobile Security**      | [MSTP (Mobile Security Testing Professional)](https://www.sans.org/cyber-security-courses/mobile-security-testing-in-depth/)                             | [OWASP Mobile Security Project](https://owasp.org/www-project-mobile-security/) | $115k-$200k   |
 
-## Intentionally Vulnerable Applications for Safe Testing
+## Hands-On Practice Platforms
+
+| Platform | Cost | Key Features | Ideal For | Certifications |
+|----------|------|-------------|-----------|---------------|
+| [TryHackMe](https://tryhackme.com) | Free/$20/mo | Gamified labs, Guided paths | Beginners | OffSec Pentest+ |
+| [Hack The Box](https://www.hackthebox.com) | Free/$20/mo | Real-world machines, CTFs | Intermediate | OSCP prep |
+| [PortSwigger Academy](https://portswigger.net/web-security) | Free | Web app labs, OWASP Top 10 | Web security | Burp Suite Cert |
+| [Blue Team Labs](https://blueteamlabs.online) | Free | SOC simulations, DFIR cases | Defensive security | N/A |
+| [RangeForce](https://www.rangeforce.com) | $0-$500/yr | Cloud attack/defend modules | Cloud engineers | Skill badges |
+| [PentesterLab](https://pentesterlab.com) | $20/mo | Web exploits, Pro exercises | Bug bounty hunters | Badges |
+| [Cybrary Labs](https://www.cybrary.it/catalog) | Free/paid | Virtual labs, Scenario-based | Skill development | N/A |
+| [VulnHub](https://www.vulnhub.com) | Free | Vulnerable VMs, CTF challenges | Intermediate | N/A |
+| [CTFtime](https://ctftime.org) | Free | CTF event aggregator, Competitions | All levels | N/A |
+
+## Intentionally Vulnerable Applications For Safe Testing
 
 | Site Name | URL | Deployment | Description | Key Vulnerabilities/Features |
 |---|---|---|---|---|
@@ -100,3 +100,15 @@
 | [RSA Conference](https://www.rsaconference.com/) | Conference | Global/Various | Enterprise cybersecurity and risk management event |
 | [BSides](https://www.securitybsides.com/) | Community/Conference | Regional events | Community-driven security events |
 | [OWASP Global AppSec](https://owasp.org) | Conference | Global/Various | Focus on application security and vulnerability management |
+
+## Top Indian Cybersecurity Conferences & Events (2025)
+
+| Name | Dates | Location | Highlights |
+|------|-------|----------|------------|
+| [Nullcon](https://nullcon.net/) | March 1-2, 2025 | Goa | Technical security conference with workshops, live hacking, and research-driven talks. Known for HackIM CTF. |
+| [Gartner Security & Risk Management Summit – India](https://www.gartner.com/en/conferences/apac/security-risk-management-india/experience) | March 10-11, 2025 | Mumbai | Provides insights into cybersecurity trends, challenges, and future innovations, backed by Gartner's research. |
+| [ETCISO Secufest Summit](https://etciso.in/events/etciso-secufest-summit-coimbatore-2025/) | March 20-23, 2025 | Coimbatore | Focuses on enterprise-level cybersecurity concerns, attracting top executives and IT security professionals. |
+| [CyberSec India Expo](https://siberx.org/conference/cybersec-india-expo/) | June 11-12, 2025 | Mumbai | India's largest exhibition dedicated to cybersecurity tools, platforms, and solutions, with vendor interactions and practical demos. |
+| [DSCI Annual Information Security Summit (AISS)](https://www.dsci.in/events/aiss) | December 4-6, 2025 | New Delhi | Flagship event of the Data Security Council of India, with policy discussions, cutting-edge content, and networking opportunities. |
+| [c0c0n](https://india.c0c0n.org/2025/) | Oct 7-11, 2025 | Kochi, Kerala | In-depth cybersecurity knowledge, practical workshops, and networking opportunities with security experts and researchers. |
+| [India Cyber Security Summit](https://www.ncsrc.in/nationalcybersecuritysummit.html) | Feb 6-7, 2025 | New Delhi | Focuses on critical challenges facing national and enterprise cybersecurity, with keynote addresses from government officials and threat intelligence experts. |
