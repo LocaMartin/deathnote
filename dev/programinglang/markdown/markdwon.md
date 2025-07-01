@@ -256,3 +256,4 @@ ___
 | ⚠️     | `&#9888;`     | Warning                    |
 | ☠️     | `&#9760;`     | Skull and Crossbones       | 
 
+while making tablw 3 `-` is enogh
