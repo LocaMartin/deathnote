@@ -105,3 +105,39 @@ A competitive exam is a test or assessment in which candidates compete against o
 | **[UCEED](https://www.uceed.iitb.ac.in/)** | Visualization, Creativity, Logic | 12th Pass | B.Des. at IITs | [uceed.iitb.ac.in](https://www.uceed.iitb.ac.in/) |
 
 ![](/competitive/tips.png)
+
+
+=======
+
+Multiple Exams: Apply for 3–5 exams (e.g., JEE + BITSAT + VITEEE) to maximize options.
+Scholarships: Target exams like LPUNEST/SRMJEEE for fee waivers.
+Post-Result:
+
+    Accept allotted seat → Freeze/float in counseling → Report to college.
+ 1. Apply for Special OJEE Registration (Urgent Action Required)
+
+    Current Status: Special OJEE registration closed on June 28, 2025 5, but contact OJEE authorities immediately:
+
+        Helpline: 0674-2382101 / 2382108 or email [email protected] 4.
+
+        Request exception: Explain your situation (high marks + genuine reason for missing the exam).
+
+    If permitted: Special OJEE exam is scheduled for July 15–16, 2025
+ Spot Admission During Counselling Vacancy Rounds
+
+    Timeline: After July 20, 2025 (post-OJEE counselling rounds) 
+How it works:
+
+    Track vacancy announcements on ojee.nic.in 1.
+
+    Physically visit colleges like Gandhi Engineering College or CET Bhubaneswar with your diploma marksheet.
+
+    Secure admission on-the-spot if seats are vacant.
+
+ Institutional Application to Universities
+
+    Apply directly to universities with dedicated lateral entry cells:
+    University	Eligibility	Application Portal
+    SOA University	60% in diploma	SOA Admission 15
+    C.V. Raman Global University	45% in diploma	Official website
+    Parala Maharaja Engineering College	45% in diploma	College admission office
