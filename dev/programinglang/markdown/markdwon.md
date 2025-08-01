@@ -16,26 +16,28 @@
 * `©`, `™`: Used for copyright and trademark symbols.
 ---
 
-- [ ] Unchecked item
-- [x] Checked item
+- [ ] Unchecked item `- [ ]`
+- [x] Checked item `- [x] `
 
-&#10007; or &#10008;
+&#10007; or &#10008; `&#10008;` , `&#10007;`
 
-&#10003; or &#10004;
+&#10003; or &#10004; `&#10004;` , `&#10003;`
 
-&copy;
+&copy; `&copy;`
 
-&reg;
+&reg; `&reg;`
 
-&trade;
+&trade; `&trade;`
 
-***
+`***`
+*** 
+`___`
 ___
 
-> This is a blockquote.
->> Nested blockquote.
->>> 1
->>>> 2
+> This is a blockquote. `>`
+>> Nested blockquote. `>>`
+>>> 3 `>>>`
+>>>> 4 `>>>>`
 
 [Link text][id]
 
@@ -45,6 +47,11 @@ ___
 
 [id]: URL "Optional title"
 
+```
+* Item 1
+- Item 2
++ Item 3
+```
 * Item 1
 - Item 2
 + Item 3
@@ -66,6 +73,8 @@ ___
 | Apple       | 1.00  |    10    |
 | Banana      | 0.50  |    25    |
 | Orange      | 0.75  |    15    |
+
+3 dash `-` are  enogh to form a column and `:` is not required
 
 ## Emoji Examples
 
@@ -256,4 +265,26 @@ ___
 | ⚠️     | `&#9888;`     | Warning                    |
 | ☠️     | `&#9760;`     | Skull and Crossbones       | 
 
-while making tablw 3 `-` is enogh
+
+### graph in markdown using quickchart svg
+```
+![](https://quickchart.io/chart?c={type:bar,data:{labels:['XSS','SQLi','SSRF','IDOR'],datasets:[{data:[10,20,5,8]}]}})
+```
+![](https://quickchart.io/chart?c={"type":"bar","data":{labels:['XSS','SQLi','SSRF','IDOR'],"datasets":[{"data":[10,20,5,8]}]}})
+
+### Markdown Admonition 
+
+> [!NOTE] 
+> This is a general note `> [!NOTE] `
+
+> [!Tip] 
+> Helpful advice for users. `> [!Tip] `
+
+> [!Warning]  
+> Potential risks or critical limitations.`> [!Warning]`
+
+> [!important]
+> Something important `> [!important]`
+
+> [!CAUTION]
+> Conscionable matters `> [!CAUTION]`

@@ -104,8 +104,22 @@ A competitive exam is a test or assessment in which candidates compete against o
 | **[NID DAT](https://admissions.nid.edu/)** | Aptitude, Sketching, Reasoning | 12th pass | Product/Fashion Designer | [admissions.nid.edu](https://admissions.nid.edu/) |
 | **[UCEED](https://www.uceed.iitb.ac.in/)** | Visualization, Creativity, Logic | 12th Pass | B.Des. at IITs | [uceed.iitb.ac.in](https://www.uceed.iitb.ac.in/) |
 
-![](/competitive/tips.png)
+>[!IMPORTANT]
+><h2 align="center">Tips</h2>
 
+>[!TIP] Tip 1
+>#### Manage Your Credentials
+
+Most applicants apply for multiple competitive exams on different websites.  
+It's difficult to remember login details (email, mobile, password).  
+Use a credential manager app or write them down in a secure place.
+
+>[!TIP] Tip 2
+>#### Regularly Check Exam Websites
+
+There is no centralized portal. Exams are managed by various state/central bodies.  
+You’ll often get notifications for registration—but not for results or cutoffs.  
+Track your exams manually and regularly visit official sites, blogs, or YouTube channels.
 
 =======
 

@@ -72,3 +72,23 @@ git commit -m "Update to v1.0.1"
 git tag -a v1.0.1 -m "Feature update"
 git push --follow-tags
 ```
+```
+pip install --upgrade setuptools wheel twine
+```
+```
+python setup.py sdist bdist_wheel
+```
+```
+pip install build
+python -m build
+```
+```
+twine upload --repository testpypi dist/* \
+  --username __token__ \
+  --password your-test-token
+```
+```
+export TWINE_USERNAME=__token__
+export TWINE_PASSWORD=your-api-token
+twine upload dist/*
+```

@@ -1,5 +1,5 @@
 <div align="center">
-  <img align="center" style="height: 250px; width: 250px;" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnJnejUybnhlMzZ6cWJ4OGo2cHNveTAzZHppYjF1cWw4aThnaGhxeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/rpIPFqrxkXTShsBhBS/giphy.gif">
+  <img style="height: 250px; width: 250px;" src="coin.gif">
 </div>
 
 <p align="center"><i><b>Crypto</b></i></p>
