@@ -3,8 +3,8 @@
 </div>
 
 - [Android Basics](android_basics.md)
-  - [App Dev]()
-- [List of android app vulnerability]()
+  - [App Dev](https://github.com/LocaMartin/deathnote/blob/main/dev/android/appdev.md)
+- [List of android app vulnerability](vuln.md)
 - [Dynamic Recon](recon/dynamic.md)
 - [Static Analysis](recon/static.mdstatic.md)
 - [Test](test.md)  
