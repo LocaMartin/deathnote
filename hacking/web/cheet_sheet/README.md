@@ -1029,7 +1029,7 @@ echo https://target.com/api?user=FUZZ \
 ```bash
 while read url; do response=$(curl -I -s -L -w "%{http_code}" "$url" -o /dev/null); if [[ "$response" == "200" ]]; then echo "$url"; fi; done < file.txt | while read url; do python SecretFinder.py -i "$url" -o cli; done
 ```
-**line number of a domai**
+**line number of a domain**
 ```bash
 grep -n "goole.com" scope.txt
 ```
@@ -1060,7 +1060,160 @@ httpx -x GET,POST,PUT,DELETE,HEAD,OPTIONS,PATCH,TRACE,CONNECT,PROPFIND,PROPPATCH
 # hexencode with \x prifix
 echo -n "cvp08ukubu2e1a6fh54gw3oqntgo43iy7.oast.site" | xxd -p -c 1 | sed 's/\(..\)/\\x\1/g' | tr -d '\n'
 ```
+## Sort domains according to its tech based on its subdomain
+```bash
+rm -f subtech/*.txt
 
+while IFS=$'\t' read -r name pattern; do
+    [ -z "$name" ] && continue
+
+    rg -i --no-heading --color never \
+       -e "$pattern" all.txt \
+    | sed 's/^\*\.//; s/^\.//' \
+    | tr '[:upper:]' '[:lower:]' \
+    | sort -u > "subtech/$name.txt"
+
+    [ -s "subtech/$name.txt" ] || rm -f "subtech/$name.txt"
+done < subtech/patterns.tsv
+```
+```text
+# patterns.tsv
+gateway	(^|[._-])(gateway|gw|edge|ingress|proxy|lb|loadbalancer)([._-]|$)
+proxy	(^|[._-])(proxy|reverseproxy|forwardproxy|proxy01|proxy02|proxy1|proxy2)([._-]|$)
+prod	(^|[._-])(prod|production)([._-]|$)
+internal	(^|[._-])(internal|intranet)([._-]|$)
+corp	(^|[._-])(corp|corporate)([._-]|$)
+admin	(^|[._-])admin([._-]|$)
+beta	(^|[._-])beta([._-]|$)
+demo	(^|[._-])demo([._-]|$)
+legacy	(^|[._-])legacy([._-]|$)
+old	(^|[._-])old([._-]|$)
+devops	(^|[._-])devops([._-]|$)
+monitor	(^|[._-])monitor([._-]|$)
+teamcity	(^|[._-])teamcity([._-]|$)
+bamboo	(^|[._-])bamboo([._-]|$)
+buildkite	(^|[._-])buildkite([._-]|$)
+circleci	(^|[._-])circleci([._-]|$)
+drone	(^|[._-])drone([._-]|$)
+gitlabci	(^|[._-])gitlab-ci([._-]|$)
+argo	(^|[._-])(argo|argocd)([._-]|$)
+tekton	(^|[._-])tekton([._-]|$)
+aws	(^|[._-])(aws|amazonaws)([._-]|$)
+azure	(^|[._-])azure([._-]|$)
+gcp	(^|[._-])(gcp|googlecloud)([._-]|$)
+cloudflare	(^|[._-])cloudflare([._-]|$)
+cloudfront	(^|[._-])cloudfront([._-]|$)
+s3	(^|[._-])s3([._-]|$)
+harbor	(^|[._-])harbor([._-]|$)
+registry	(^|[._-])registry([._-]|$)
+portainer	(^|[._-])portainer([._-]|$)
+rancher	(^|[._-])rancher([._-]|$)
+openshift	(^|[._-])openshift([._-]|$)
+vault	(^|[._-])vault([._-]|$)
+fortinet	(^|[._-])fortinet([._-]|$)
+paloalto	(^|[._-])(paloalto|pan)([._-]|$)
+checkpoint	(^|[._-])checkpoint([._-]|$)
+citrix	(^|[._-])citrix([._-]|$)
+f5	(^|[._-])f5([._-]|$)
+netscaler	(^|[._-])netscaler([._-]|$)
+auth	(^|[._-])auth([._-]|$)
+login	(^|[._-])login([._-]|$)
+oauth	(^|[._-])oauth([._-]|$)
+oidc	(^|[._-])oidc([._-]|$)
+saml	(^|[._-])saml([._-]|$)
+idp	(^|[._-])idp([._-]|$)
+sts	(^|[._-])sts([._-]|$)
+iam	(^|[._-])iam([._-]|$)
+graylog	(^|[._-])graylog([._-]|$)
+loki	(^|[._-])loki([._-]|$)
+tempo	(^|[._-])tempo([._-]|$)
+jaeger	(^|[._-])jaeger([._-]|$)
+zabbix	(^|[._-])zabbix([._-]|$)
+nagios	(^|[._-])nagios([._-]|$)
+datadog	(^|[._-])datadog([._-]|$)
+newrelic	(^|[._-])newrelic([._-]|$)
+activemq	(^|[._-])activemq([._-]|$)
+mqtt	(^|[._-])mqtt([._-]|$)
+nats	(^|[._-])nats([._-]|$)
+amqp	(^|[._-])amqp([._-]|$)
+mq	(^|[._-])mq([._-]|$)
+mssql	(^|[._-])(mssql|sqlserver)([._-]|$)
+oracle	(^|[._-])oracle([._-]|$)
+cassandra	(^|[._-])cassandra([._-]|$)
+couchdb	(^|[._-])couchdb([._-]|$)
+influxdb	(^|[._-])influxdb([._-]|$)
+neo4j	(^|[._-])neo4j([._-]|$)
+memcached	(^|[._-])memcached([._-]|$)
+joomla	(^|[._-])joomla([._-]|$)
+typo3	(^|[._-])typo3([._-]|$)
+ghost	(^|[._-])ghost([._-]|$)
+strapi	(^|[._-])strapi([._-]|$)
+directus	(^|[._-])directus([._-]|$)
+haproxy	(^|[._-])haproxy([._-]|$)
+envoy	(^|[._-])envoy([._-]|$)
+kong	(^|[._-])kong([._-]|$)
+istio	(^|[._-])istio([._-]|$)
+gateway	(^|[._-])gateway([._-]|$)
+proxy	(^|[._-])proxy([._-]|$)
+vmware	(^|[._-])vmware([._-]|$)
+esxi	(^|[._-])esxi([._-]|$)
+vcenter	(^|[._-])vcenter([._-]|$)
+horizon	(^|[._-])horizon([._-]|$)
+minio	(^|[._-])minio([._-]|$)
+ceph	(^|[._-])ceph([._-]|$)
+storage	(^|[._-])storage([._-]|$)adfs	(^|[._-])adfs([._-]|$)
+airflow	(^|[._-])airflow([._-]|$)
+apache	(^|[._-])apache([._-]|$)
+artifactory	(^|[._-])artifactory([._-]|$)
+autodiscover	(^|[._-])autodiscover([._-]|$)
+backup	(^|[._-])(bak|backup|backups)([._-]|$)
+bitbucket	(^|[._-])bitbucket([._-]|$)
+cdn	(^|[._-])(cdn|assets|static)([._-]|$)
+confluence	(^|[._-])confluence([._-]|$)
+consul	(^|[._-])consul([._-]|$)
+database	(^|[._-])(database|databases)([._-]|$)
+db	(^|[._-])(db|dbs)([._-]|$)
+dev	(^|[._-])(dev|develop|development)([._-]|$)
+docker	(^|[._-])docker([._-]|$)
+drupal	(^|[._-])drupal([._-]|$)
+elastic	(^|[._-])(elastic|elasticsearch)([._-]|$)
+exchange	(^|[._-])(exchange|exch)([._-]|$)
+ftp	(^|[._-])(ftp|sftp|ftps)([._-]|$)
+git	(^|[._-])(git|github|gitlab|gitea)([._-]|$)
+grafana	(^|[._-])grafana([._-]|$)
+jenkins	(^|[._-])jenkins([._-]|$)
+jira	(^|[._-])jira([._-]|$)
+kafka	(^|[._-])kafka([._-]|$)
+keycloak	(^|[._-])keycloak([._-]|$)
+kibana	(^|[._-])kibana([._-]|$)
+kubernetes	(^|[._-])(k8s|kube|kubernetes)([._-]|$)
+ldap	(^|[._-])ldap([._-]|$)
+mail	(^|[._-])(mail|smtp|imap|pop3|mx)([._-]|$)
+magento	(^|[._-])magento([._-]|$)
+mongodb	(^|[._-])(mongo|mongodb)([._-]|$)
+mysql	(^|[._-])mysql([._-]|$)
+nexus	(^|[._-])nexus([._-]|$)
+nginx	(^|[._-])nginx([._-]|$)
+okta	(^|[._-])okta([._-]|$)
+owa	(^|[._-])owa([._-]|$)
+phpmyadmin	(^|[._-])(phpmyadmin|pma)([._-]|$)
+postgres	(^|[._-])(postgres|postgresql|pgsql)([._-]|$)
+prometheus	(^|[._-])prometheus([._-]|$)
+rabbitmq	(^|[._-])rabbitmq([._-]|$)
+redis	(^|[._-])redis([._-]|$)
+sonarqube	(^|[._-])(sonar|sonarqube)([._-]|$)
+splunk	(^|[._-])splunk([._-]|$)
+sql	(^|[._-])sql([._-]|$)
+sso	(^|[._-])sso([._-]|$)
+stage	(^|[._-])(stage|staging|uat|qa|test|testing|preprod|pre-prod|nonprod|sandbox)([._-]|$)
+swagger	(^|[._-])(swagger|openapi)([._-]|$)
+tomcat	(^|[._-])tomcat([._-]|$)
+traefik	(^|[._-])traefik([._-]|$)
+vpn	(^|[._-])(vpn|remote|secure|pulse|globalprotect|anyconnect)([._-]|$)
+webmail	(^|[._-])webmail([._-]|$)
+wordpress	(^|[._-])(wordpress|wp)([._-]|$)
+zookeeper	(^|[._-])zookeeper([._-]|$)
+```
 </details>
 
 <details>
