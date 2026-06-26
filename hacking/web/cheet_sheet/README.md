@@ -1214,6 +1214,62 @@ webmail	(^|[._-])webmail([._-]|$)
 wordpress	(^|[._-])(wordpress|wp)([._-]|$)
 zookeeper	(^|[._-])zookeeper([._-]|$)
 ```
+```bash
+#!/usr/bin/env bash
+set -euo pipefail
+
+mkdir -p results
+
+scan() {
+  file="$1"
+  tags="$2"
+  name="$(basename "$file" .txt)"
+
+  [ -s "$file" ] || return
+
+  echo "[+] $name => tags: $tags"
+
+  nuclei -l "$file" \
+    -tags "$tags" \
+    -severity low,medium,high,critical \
+    -rl 50 \
+    -c 25 \
+    -o "results/${name}.txt"
+}
+
+scan subtech/grafana.txt "grafana"
+scan subtech/jenkins.txt "jenkins"
+scan subtech/kibana.txt "kibana,elastic"
+scan subtech/elastic.txt "elastic,elasticsearch,kibana"
+scan subtech/wordpress.txt "wordpress,wp"
+scan subtech/drupal.txt "drupal"
+scan subtech/joomla.txt "joomla"
+scan subtech/gitlab.txt "gitlab"
+scan subtech/jira.txt "jira,atlassian"
+scan subtech/confluence.txt "confluence,atlassian"
+scan subtech/sonarqube.txt "sonarqube"
+scan subtech/prometheus.txt "prometheus"
+scan subtech/swagger.txt "swagger,openapi"
+scan subtech/spring.txt "spring,springboot"
+scan subtech/tomcat.txt "tomcat"
+scan subtech/nginx.txt "nginx"
+scan subtech/apache.txt "apache"
+scan subtech/phpmyadmin.txt "phpmyadmin"
+scan subtech/mongodb.txt "mongodb"
+scan subtech/redis.txt "redis"
+scan subtech/rabbitmq.txt "rabbitmq"
+scan subtech/kubernetes.txt "kubernetes,k8s"
+scan subtech/docker.txt "docker"
+scan subtech/harbor.txt "harbor"
+scan subtech/nexus.txt "nexus"
+scan subtech/artifactory.txt "artifactory"
+scan subtech/vpn.txt "vpn"
+scan subtech/citrix.txt "citrix"
+scan subtech/adfs.txt "adfs"
+scan subtech/keycloak.txt "keycloak"
+scan subtech/owa.txt "owa,exchange"
+scan subtech/exchange.txt "exchange,owa"
+```
 </details>
 
 <details>
