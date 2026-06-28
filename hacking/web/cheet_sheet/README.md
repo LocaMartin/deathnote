@@ -16,9 +16,9 @@
 
 ---
 
-# Table of Contents
+<details>
+<summary><b>Table of Contents</b></summary>
 
-> GitHub Markdown version: clickable links + nested dropdown style using `<details>`, `<summary>`, and blockquote text only.
 >
 > - [Recon](#recon)
 >   - [↳ Target Collection](#target-collection)
@@ -55,6 +55,8 @@
 >     - [↳ Dependency Confusion](#dependency-confusion)
 > - [Miscellaneous Utilities](#miscellaneous-utilities)
 > - [Apk](#apk)
+
+</details>
 
 ---
 
