@@ -612,8 +612,7 @@ echo tesla.com | subfinder -silent | httpx -silent | cariddi -intensive
 # Perform subdomain enumeration, HTTP probing, and intensive parameter discovery with Cariddi.
 ```
 ```bash
-curl -s http://HOST/sitemap.xml | xmllint --format - | grep -e 'loc' | sed -r 's|</?loc>||g'
-# Extract URLs from sitemap.xml by parsing <loc> tags.
+cat all.txt | httpx -silent | xargs -I {} -P 20 sh -c 'curl -sL "{}/sitemap.xml" | grep -oP "(?<=<loc>).*?(?=</loc>)"' | tee sitemapurls.txt
 ```
 ```bash
 cat urls1 | html-tool comments | grep -oE '\b(https?|http)://[-A-Za-z0-9+&@**%?=~_|!:,.;]*[-A-Za-z0-9+&@**%=~_|]'
