@@ -1,8 +1,7 @@
-<div>
+<div align="center">
     <p>This <i><b>REPO</b></i> stores my digital & handwritten notes. <span style="float: right;">29/05/2025</span></p>
+    <img src="read.gif" style="width: 100%;" />
 </div>
-
-<img src="read.gif" style="width: 100%;" />
 
 >  **☣** : The handwritten notes contained in this documentation have been classified as a biohazard due to extremely high levels of scribble toxicity. Prolonged exposure may cause confusion, headaches, and spontaneous urges to become a cryptologist.
 Side effects of attempting to decipher the handwritten sections may include:
